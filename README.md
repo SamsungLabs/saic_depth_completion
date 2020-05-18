@@ -87,12 +87,12 @@ This repository includes all models mentioned in original paper.
 [lrn_b4_berhu]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b4_berhu.pth
 [lrn_b4_mask]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b4_mask.pth
 
-[dm-lrn_b0]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/dm-lrn_b0.pth
-[dm-lrn_b1]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/dm-lrn_b1.pth
-[dm-lrn_b2]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/dm-lrn_b2.pth
-[dm-lrn_b3]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/dm-lrn_b3.pth
-[dm-lrn_b4]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/dm-lrn_b4.pth
-[dm-lrn_b4_berhu]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/dm-lrn_b4_berhu.pth
+[dm-lrn_b0]: 
+[dm-lrn_b1]: 
+[dm-lrn_b2]: 
+[dm-lrn_b3]: 
+[dm-lrn_b4]: 
+[dm-lrn_b4_berhu]: 
 
 ## License
 The code is released under the MPL 2.0 License. MPL is a copyleft license that is easy to comply with. You must make the source code for any of your changes available under MPL, but you can combine the MPL software with proprietary code, as long as you keep the MPL code in separate files.
