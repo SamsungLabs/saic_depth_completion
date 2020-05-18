@@ -79,20 +79,20 @@ This repository includes all models mentioned in original paper.
 | efficientnet-b4 | DM-LRN | RGBD | LogDepthL1Loss | [dm-lrn_b4.pth][dm-lrn_b4] | DM_LRN_efficientnet-b4_pepper.yaml |
 | efficientnet-b4 | DM-LRN | RGBD | BerHu | [dm-lrn_b4_berhu.pth][dm-lrn_b4_berhu] | DM_LRN_efficientnet-b4_amelia.yaml |
 
-[lrn_b0]: 
-[lrn_b1]: 
-[lrn_b2]: 
-[lrn_b3]: 
-[lrn_b4]: 
-[lrn_b4_berhu]: 
-[lrn_b4_mask]: 
+[lrn_b0]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/lrn_b0.pth
+[lrn_b1]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/lrn_b1.pth
+[lrn_b2]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/lrn_b2.pth
+[lrn_b3]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/lrn_b3.pth
+[lrn_b4]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/lrn_b4.pth
+[lrn_b4_berhu]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/lrn_b4_berhu.pth
+[lrn_b4_mask]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/lrn_b4_mask.pth
 
-[dm-lrn_b0]: 
-[dm-lrn_b1]: 
-[dm-lrn_b2]: 
-[dm-lrn_b3]: 
-[dm-lrn_b4]: 
-[dm-lrn_b4_berhu]: 
+[dm-lrn_b0]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/dm-lrn_b0.pth
+[dm-lrn_b1]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/dm-lrn_b1.pth
+[dm-lrn_b2]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/dm-lrn_b2.pth
+[dm-lrn_b3]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/dm-lrn_b3.pth
+[dm-lrn_b4]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/dm-lrn_b4.pth
+[dm-lrn_b4_berhu]: https://github.com/saic-vul/saic_depth_completion/releases/download/v1.0/dm-lrn_b4_berhu.pth
 
 ## License
 The code is released under the MPL 2.0 License. MPL is a copyleft license that is easy to comply with. You must make the source code for any of your changes available under MPL, but you can combine the MPL software with proprietary code, as long as you keep the MPL code in separate files.
