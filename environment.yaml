@@ -1,0 +1,32 @@
+name: depth-completion
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.6
+  - pytorch=1.4.*
+  - torchvision=0.5.*
+  - ninja
+  - numpy
+  - opencv
+  - pillow
+  - pip
+  - setuptools
+  - six
+  - tensorboard
+  - tqdm
+  - pip:
+    - argparse
+    - colorlog
+    - cycler
+    - decorator
+    - easydict
+    - efficientnet-pytorch
+    - future
+    - imageio
+    - matplotlib
+    - pyyaml
+    - scikit-image
+    - termcolor
+    - yacs

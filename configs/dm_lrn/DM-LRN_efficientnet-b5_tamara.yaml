@@ -1,0 +1,23 @@
+model:
+  arch: "DM-LRN"
+  max_channels: 256
+  modulation: "SPADE"
+  activation: ("LeakyReLU", [0.2, True] )
+  upsample: "bilinear"
+  use_crp: True
+  criterion: (("LogDepthL1Loss",  1.0), )
+  predict_log_depth: True
+  mask_encoder_ksize: 3
+
+
+  backbone:
+    arch: "efficientnet-b5"
+    imagenet: True
+    norm_layer: ""
+    multi_scale_output: True
+
+train:
+  batch_size: 16
+  lr: 0.0001
+test:
+  batch_size: 4

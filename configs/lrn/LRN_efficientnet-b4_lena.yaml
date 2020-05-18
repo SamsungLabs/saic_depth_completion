@@ -1,0 +1,18 @@
+model:
+  arch: "LRN"
+  max_channels: 256
+  activation: ("LeakyReLU", [0.2, True] )
+  upsample: "bilinear"
+  use_crp: True
+  criterion: (("LogDepthL1Loss",  1.0), )
+  predict_log_depth: True
+
+
+  backbone:
+    arch: "efficientnet-b4"
+    imagenet: True
+    multi_scale_output: True
+
+train:
+  batch_size: 32
+  lr: 0.0001

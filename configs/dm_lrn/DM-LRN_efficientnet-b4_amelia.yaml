@@ -1,0 +1,21 @@
+model:
+  arch: "DM-LRN"
+  max_channels: 256
+  modulation: "SPADE"
+  activation: ("ReLU", [] )
+  upsample: "bilinear"
+  use_crp: True
+  criterion: (("BerHuLoss",  1.0, [0.5]), )
+  predict_log_depth: False
+  mask_encoder_ksize: 3
+
+
+  backbone:
+    arch: "efficientnet-b4"
+    imagenet: True
+    norm_layer: ""
+    multi_scale_output: True
+
+train:
+  batch_size: 32
+  lr: 0.0001
