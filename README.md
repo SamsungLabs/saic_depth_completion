@@ -79,13 +79,13 @@ This repository includes all models mentioned in original paper.
 | efficientnet-b4 | DM-LRN | RGBD | LogDepthL1Loss | [dm-lrn_b4.pth][dm-lrn_b4] | DM_LRN_efficientnet-b4_pepper.yaml |
 | efficientnet-b4 | DM-LRN | RGBD | BerHu | [dm-lrn_b4_berhu.pth][dm-lrn_b4_berhu] | DM_LRN_efficientnet-b4_amelia.yaml |
 
-[lrn_b0]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b0.pth
-[lrn_b1]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b1.pth
-[lrn_b2]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b2.pth
-[lrn_b3]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b3.pth
-[lrn_b4]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b4.pth
-[lrn_b4_berhu]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b4_berhu.pth
-[lrn_b4_mask]: https://github.sec.samsung.net/d-senushkin/saic_depth_completion_public/releases/download/v1.0/lrn_b4_mask.pth
+[lrn_b0]: 
+[lrn_b1]: 
+[lrn_b2]: 
+[lrn_b3]: 
+[lrn_b4]: 
+[lrn_b4_berhu]: 
+[lrn_b4_mask]: 
 
 [dm-lrn_b0]: 
 [dm-lrn_b1]: 
