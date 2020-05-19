@@ -13,7 +13,7 @@
 > [Anton Konushin](https://scholar.google.com/citations?user=ZT_k-wMAAAAJ)
 > <br>
 > Samsung AI Center Moscow <br>
-> https://arxiv.org/abs/20??.?????
+> https://arxiv.org/abs/2005.08607
 
 > **Abstract**: *Accurate depth map estimation is an essential step in scene spatial mapping for AR applications and 3D modeling. Current depth sensors provide time-synchronized depth and color images in real-time, but have limited range and suffer from missing and erroneous depth values on transparent or glossy surfaces. We investigate the task of depth completion that aims at improving the accuracy of depth measurements and recovering the missing depth values using additional information from corresponding color images. Surprisingly, we find that a simple baseline model based on modern encoder-decoder architecture for semantic segmentation achieves state-of-the-art accuracy on standard depth completion benchmarks. Then, we show that the accuracy can be further improved by taking into account a mask of missing depth values. The main contributions of our work are two-fold. First, we propose a modified decoder architecture, where features from raw depth and color are modulated by features from the mask via Spatially-Adaptive Denormalization (SPADE). Second, we introduce a new loss function for depth estimation based on direct comparison of log depth prediction with ground truth values. The resulting model outperforms current state-of-the-art by a large margin on the challenging Matterport3D dataset.*
 
@@ -103,7 +103,7 @@ If you find this work is useful for your research, please cite our paper:
 @article{dmidc2020,
   title={Decoder Modulation for Indoor Depth Completion},
   author={Dmitry Senushkin, Ilia Belikov, Anton Konushin},
-  journal={arXiv preprint arXiv:20??.????},
+  journal={arXiv preprint arXiv:2005.08607},
   year={2020}
 }
 ```
